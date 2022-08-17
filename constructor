@@ -1,0 +1,16 @@
+class Private_Constructor 
+{
+   private Private_Constructor(int a,int b)
+	{
+	   System.out.println("sum of the two integers are: "+(a+b));
+	}
+	private Private_Constructor(int a,int b,int c)
+	{
+		System.out.println("sum of three integers are: "+(a+b+c));
+	}
+	public static void main(String[] args) 
+	{
+		Private_Constructor a1=new Private_Constructor(10,20);
+		Private_Constructor a2=new Private_Constructor(10,20,30);
+	}
+}
