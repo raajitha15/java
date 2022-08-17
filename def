@@ -1,0 +1,30 @@
+//differences between final finally and finalize
+/* final: final is akeyword which is used in aprogram it restricts
+the programmer for modiy the program.
+finally: it a block which is used in try catch finally block 
+executes at any cost.
+finalize: it is used in garbage collector method.
+
+differences between c++ and java
+c++:
+1.  independent platform
+2. no data types are used
+3. vector is used
+4. no classname is used
+5. no try catch is used
+
+java:
+1. Independent platform
+2. data types are used
+3. no vector is used
+4. classes are present
+5. try..catch block is used
+
+differences between treemap, hashmap and linked hash map
+treemap: used to implement map interface and navigablemap along
+with the abstract
+
+hashmap: provides the basic implements of the map interface
+
+linkedmap: an extension of the hashmap class and its implements
+the map interface.*/
