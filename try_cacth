@@ -1,0 +1,27 @@
+import java.util.Scanner;
+class Try_Catch_Finally 
+{
+	public static void main(String[] args) 
+	{
+		int res=0;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the num1 value");
+		int num1=sc.nextInt();
+		System.out.println("enter the num2 value");
+		int num2=sc.nextInt();
+		try
+		{
+			 res=num1/num2;
+			 System.out.println("the result is: "+res);
+		}
+		catch (ArithmeticException e)
+		{
+			System.out.println("Exception handled");
+		}
+		finally
+		{
+			System.out.println("finally will execute at any cost");
+		}
+		
+	}
+}
